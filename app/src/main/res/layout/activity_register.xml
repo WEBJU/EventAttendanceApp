@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center"
+    android:background="@color/md_theme_light_background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/md_theme_light_onBackground"
+        android:layout_gravity="center" />
+
+    <EditText
+        android:id="@+id/etFullName"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Full Name"
+        android:textColor="@color/md_theme_light_onSurface"
+        android:textColorHint="@color/md_theme_light_onSurfaceVariant"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:background="@drawable/input_background" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Email"
+        android:textColor="@color/md_theme_light_onSurface"
+        android:textColorHint="@color/md_theme_light_onSurfaceVariant"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:background="@drawable/input_background" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Password"
+        android:textColor="@color/md_theme_light_onSurface"
+        android:textColorHint="@color/md_theme_light_onSurfaceVariant"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:background="@drawable/input_background" />
+
+    <EditText
+        android:id="@+id/etConfirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Confirm Password"
+        android:textColor="@color/md_theme_light_onSurface"
+        android:textColorHint="@color/md_theme_light_onSurfaceVariant"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:background="@drawable/input_background" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:backgroundTint="@color/md_theme_light_primary"
+        android:textColor="@color/md_theme_light_onPrimary"
+        android:padding="10dp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/tvLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already have an account? Login"
+        android:textColor="@color/md_theme_light_primary"
+        android:textSize="14sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp" />
+
+</LinearLayout>
