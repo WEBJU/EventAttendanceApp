@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">FaceRecognition</string>
+    <string name="app_name">Attendance App</string>
     <string name="title_activity_settings">SettingsActivity</string>
     <string name="settings">Settings</string>
 
