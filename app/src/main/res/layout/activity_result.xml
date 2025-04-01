@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:gravity="center"
-        android:text="Identify Result"
+        android:text="Face Recogniton Result"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:layout_marginTop="16dp"
         app:layout_constraintTop_toTopOf="parent">
@@ -31,12 +31,14 @@
         <ImageView
             android:id="@+id/imageEnrolled"
             android:layout_width="150dp"
+            android:src="@drawable/ic_branton"
             android:layout_height="150dp">
         </ImageView>
 
         <ImageView
             android:id="@+id/imageIdentified"
             android:layout_width="150dp"
+            android:src="@drawable/ic_branton"
             android:layout_height="150dp"
             android:layout_marginLeft="20dp"
             >
@@ -75,7 +77,7 @@
         android:id="@+id/textPerson"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Identified: Person1"
+        android:text="Identified: Branton Makhatsa"
         android:textSize="18dp"
         android:layout_marginTop="24dp"
         android:layout_marginLeft="24dp"
@@ -101,7 +103,7 @@
         android:id="@+id/textLiveness"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Liveness score: 0.83"
+        android:text="Action: Attendance Recorded"
         android:textSize="18dp"
         android:layout_marginTop="16dp"
         android:layout_marginLeft="24dp"
